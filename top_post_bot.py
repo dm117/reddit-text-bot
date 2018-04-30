@@ -13,7 +13,7 @@ def authenticate():
 
 def run_bot(reddit,mylist):
     text = ""
-    for posts in reddit.subreddit('soccer').hot(limit=3):
+    for posts in reddit.subreddit('nba').hot(limit=3):
         text = posts.title+": "+"https://reddit.com"+posts.permalink
         mylist.append(text)
     print("Here are the results: \n"+", ".join(mylist))
