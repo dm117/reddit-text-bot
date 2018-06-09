@@ -15,5 +15,4 @@ client.messages.create(
     to=to_phone,
     from_=from_phone,
     body=message,
-    # media_url="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half/public/field_blog_entry_images/matrix-1460603554sdB.jpg?itok=1Xt3ImBP"
 )

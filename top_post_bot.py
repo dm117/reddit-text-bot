@@ -25,5 +25,8 @@ def main():
     # while True:
     #     run_bot(reddit)
 
+#If running the program run main this way if this code is imported 
+#for a specific function the entire program wont run when calling the function
+#Basically if running the program directly, call main()
 if __name__ == '__main__':
     main()
